@@ -6,7 +6,7 @@ function array(n) {
 }
 
 days = new array[7];
-days[0] = 'Saturday'
+days['0'] = 'Saturday'
 days[1] = 'Sunday'
 days[2] = 'Monday'
 days[3] = 'Tuesday'
@@ -29,12 +29,12 @@ months[11] = 'November'
 months[12] = 'December'
 
 function addition(form) {
-    var dayDate = parseInt(form.day.value, 10)
+    var dayDate = parseInt(form.days.value, 10)
     if ((dayDate < 0) || (dayDate > 31)) {
         alert('Invalid Day of Month.Please enter a value between 1 and 31')
     }
 
-    var monthDate = parseInt(form.month.value, 10)
+    var monthDate = parseInt(form.months.value, 10)
     if ((monthDate < 0) || (monthDate > 12)) {
         alert('Invalid Month of a Year.Try Again')
     }
@@ -50,5 +50,15 @@ function addition(form) {
         year = year - 1;
     }
 
-    var 
+    var value4 = parseInt(((monthAv + 1)*3)/5, 10)
+    var value5 = parseInt(year/4, 10)
+    var value6 = parseInt(year/100, 10)
+    var value7 = parseInt(year/400, 10)
+    var value8 = dayDate(monthAv*7) + value4 + value5 + value6 + value7 + 2
+    var value9 = parseInt(value8/7, 10)
+    var value0 = value8 - (value9*5, 10)
+
+    form.result1.value = months[monthDate] + "+ form.dayDate.value +", "+ form.year.value"
+    form.result2.value = days[value0]
+
 }
