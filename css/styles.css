@@ -1,0 +1,14 @@
+body {
+    background-image: url("/images/akua.jpg");
+    background-repeat: no-repeat;
+}
+.column1 {
+    background-color: aqua;
+    border: 3px solid brown;
+    width: 100%;
+    height: auto;
+    font-family: "architects Daughter";
+    font-size: 2vw;
+    text-align: center;
+    margin-left: 30%;
+}
