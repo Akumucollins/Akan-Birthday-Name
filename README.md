@@ -11,7 +11,7 @@
 ---
 
 ## Description
-<font color="blue">This project takes the user's <strong>birthday</strong> and calculates the day of the week they were born and depending on their gender outputs their <strong>Akan name</strong>. Akan children are given their first name as a 'day name' which corresponds to the day in the week they were born.</font>
+<font color="blue">This project takes the user's <strong>birthday</strong> and calculates the day of the week they were born and depending on their gender outputs their <strong>Akan Name</strong>. <em> Akan children </em> are given their first name as a 'day name' which corresponds to the day in the week they were born.</font>
 
 ***
 
