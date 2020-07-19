@@ -2,9 +2,15 @@ body {
     background-color: white;
 }
 
+.container-fluid {
+    display: inline-flex;
+    margin-left: auto;
+}
+
 .navbar-header {
     font-size: 4vw;
-    margin-top: 1.5%;
+    /* margin-top: %; */
+    margin-left: -8%;
     font-family: 'Archivo Black', sans-serif;
 }
 
