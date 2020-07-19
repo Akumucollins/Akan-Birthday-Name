@@ -20,6 +20,6 @@ function additionSubmit() {
         document.getElementById('result').innerHTML = femaleNames[date.getDay()];
     }
     else {
-        alert( " For Her Born On " + " UNDIFINED DATE " + ',' + " Your Akan Name Is "  + " UNDEFINED ");
+        alert( " For Him/Her Born On " + " UNDIFINED DATE " + ',' + " Your Akan Name Is "  + " UNDEFINED ");
     }
 }

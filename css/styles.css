@@ -1,14 +1,35 @@
 body {
-    background-image: url("/images/akua.jpg");
-    background-repeat: no-repeat;
+    background-color: white;
 }
-.column1 {
-    background-color: aqua;
-    border: 3px solid brown;
-    width: 100%;
-    height: auto;
-    font-family: "architects Daughter";
-    font-size: 2vw;
-    text-align: center;
-    margin-left: 30%;
+
+
+/* .logo {
+    width: 0px;
+    height: 0px;
+    background-image: url("");
+    background-position: left top;
+    float: left;
+    margin-left: -2%;
 }
+
+@media only screen and (min-width: 10em) {
+    .logo {
+        background-position: center 10px;
+    }
+}
+
+@media only screen and (min-width: 18em) {
+    .logo {
+        background-position: left -10px;
+        width: 600px;
+        height: 300px;
+    }
+}
+
+@media only screen and (min-width: 35em) {
+    .logo {
+        background-position: left 0px;
+        width: 600px;
+        height: 300px;
+    }
+} */
