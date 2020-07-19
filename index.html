@@ -20,7 +20,7 @@
         <nav class="avbar navbar-expand-sm">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="/images/akanlogo.png" alt="Logo" style="width:50px;">
+                    <img src="/images/akanlogo.png" alt="Logo" style="width:50px; position: fixed;">
                 </a>
                 <div class="websitename">
                     <h1 class="navbar-header">AKAN<small class="header text-info">NAMES</small></h1>
@@ -43,7 +43,6 @@
                 <label for="birthday" class="text-uppercase">Please enter your birthday here:</label>
                 <input type="date" name="date" class="form-control" placeholder="Enter Your BirthYear" id="date">
             </div>
-
             <div class="form-group">
                 <label for="birthday" class="text-uppercase">Please select your gender here:</label>
                 <select class="form-control mb-2" id="gender">
@@ -51,7 +50,6 @@
                     <option value="female" class="form-control" id="female">Female</option>
                 </select>
             </div>
-
             <button type="submit" id="btn btn-default" onclick="additionSubmit()">Submit</button>
             <div class="text-center text-danger" id="result"></div>
         </form>
