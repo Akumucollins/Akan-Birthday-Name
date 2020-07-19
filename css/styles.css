@@ -8,6 +8,11 @@ body {
     font-family: 'Archivo Black', sans-serif;
 }
 
+label {
+    color: brown;
+    font-family: 'Archivo Black', sans-serif;
+}
+
 
 /* .logo {
     width: 0px;
