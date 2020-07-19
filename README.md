@@ -1,8 +1,8 @@
 ***
 
-# Portfolio-Landing-Page
+# Akan-BirthDay-Name
 
-#### This **Portfolio** is for marketing myself to the future, Sunday July 12 2020
+#### This **Akan-BirthDay-Name** is the first automatic name every Akan child gets based on the day s/he was born even before s/he is officially named, Sunday July 19 2020
 
 ***
 
@@ -11,17 +11,16 @@
 ---
 
 ## Description
-<font color="blue">This is basically a portfolio landing page website containing all about myself. It has different section namely <strong>name, about me, hobbies, projects and contact</strong>.</font>
+<font color="blue">This project takes the user's <strong>birthday</strong> and calculates the day of the week they were born and depending on their gender outputs their <strong>Akan name</strong>. Akan children are given their first name as a 'day name' which corresponds to the day in the week they were born.</font>
 
 ***
 
 ## Setup/Installation Requirements
 
-* Designed a frame work on figma https://www.figma.com/file/eqgbAsVwOpdOgKCVvDaPpo/Portfolio?node-id=3%3A18
 * Opened my terminal (ctrl+alt+T)
-* Created moringa-school-project folder and inside it created Portfolio folder
+* Created moringa-school-project folder and inside it created Ghana-akan-name folder
 * Initialized git on my terminal
-* Git clone https://github.com/Akumucollins/Portfolio-Landing-Page.git
+* Git clone https://akumucollins.github.io/Akan-Birthday-Name/
 * Move to the vs code where I was done the coding 
 * I added the changes I made as I commit to the git
 
@@ -30,6 +29,8 @@
 ## Technologies Used
 * <font color="red">HTML</font>
 * <font color="red">CSS</font>
+* <font color="red">JS</font>
+
 
 ***
 
