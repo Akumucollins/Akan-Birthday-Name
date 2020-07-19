@@ -14,12 +14,10 @@ function additionSubmit() {
     if (gender === 'male') {
         alert(" For Him Born On " + weekDays[date.getDay()] + ',' + " Your Akan Name Is " + maleNames[date.getDay()]);
         document.getElementById('result').innerHTML = maleNames[date.getDay()]
-    }
-    else if (gender === 'female') {
+    } else if (gender === 'female') {
         alert(" For Her Born On " + weekDays[date.getDay()] + ',' + " Your Akan Name Is " + femaleNames[date.getDay()]);
         document.getElementById('result').innerHTML = femaleNames[date.getDay()];
-    }
-    else {
-        alert( " For Him/Her Born On " + " UNDIFINED DATE " + ',' + " Your Akan Name Is "  + " UNDEFINED ");
+    } else {
+        alert(" For Him or Her Born On " + " Undefine Date " + ',' + " Your Akan Name Is " + " Undefined ");
     }
 }
