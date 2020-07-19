@@ -12,12 +12,10 @@ function additionSubmit() {
     date = new Date(date);
 
     if (gender === 'male') {
-        alert(" For Him Born On " + weekDays[date.getDay()] + ',' + " Your Akan Name Is " + maleNames[date.getDay()]);
-        document.getElementById('result').innerHTML = maleNames[date.getDay()]
+        document.getElementById('result').innerHTML = " For Him Born On " + weekDays[date.getDay()] + ',' + " Your Akan Name Is " + maleNames[date.getDay()]
     } else if (gender === 'female') {
-        alert(" For Her Born On " + weekDays[date.getDay()] + ',' + " Your Akan Name Is " + femaleNames[date.getDay()]);
-        document.getElementById('result').innerHTML = femaleNames[date.getDay()];
+        document.getElementById('result').innerHTML = "For Her Born On " + weekDays[date.getDay()] + ',' + " Your Akan Name Is " + femaleNames[date.getDay()]
     } else {
-        alert(" For Him or Her Born On " + " Undefine Date " + ',' + " Your Akan Name Is " + " Undefined ");
+        alert(" For Him or Her Born On " + " Undefined Date " + ',' + " Your Akan Name Is " + " Undefined ");
     }
 }
