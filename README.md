@@ -11,32 +11,57 @@
 ---
 
 ## Description
-<font color="blue">This project takes the user's <strong>birthday</strong> and calculates the day of the week they were born and depending on their gender outputs their <strong>Akan Name</strong>. <em> Akan children </em> are given their first name as a 'day name' which corresponds to the day in the week they were born.</font>
+This project takes the user's <strong>birthday</strong> and calculates the day of the week they were born and depending on their gender outputs their <strong>Akan Name</strong>. <em> Akan children </em> are given their first name as a 'day name' which corresponds to the day in the week they were born.
 
 ***
 
 ## Setup/Installation Requirements
 
-* Opened my terminal (ctrl+alt+T)
-* Created moringa-school-project folder and inside it created Ghana-akan-name folder
-* Initialized git on my terminal
-* Git clone https://akumucollins.github.io/Akan-Birthday-Name/
-* Move to the vs code where I was done the coding 
-* I added the changes I made as I commit to the git
+* fork the project to you github
+* cd to the directory of your choice
+* git clone https://akumucollins.github.io/Akan-Birthday-Name/ to your local terminal
+*  cd to the project directory
+*  code .  command  to open the text editor
 
 ---
 
 ## Technologies Used
-* <font color="red">HTML</font>
-* <font color="red">CSS</font>
-* <font color="red">JS</font>
+* HTML
+* CSS
+* JS
+* BOOTSTRAP 4
 
 
 ***
 
+### Behaviour Driven Development
+
+* Context(“given an input field”)
+            When(“providing a date that is less than 1 and greater than 31”)
+                It(“should return an invalid date or invalid value”)
+                It(“should not validate the value or date as true”)
+* Context(“given an input field”)
+        When(“providing a year that has 4 digit figures”)
+                It(“should return entered a valid value”)
+                It(“should not error”)
+* Context(“given an input field”)
+            When(“providing a year with more than 4 digit figure”)
+                It(“should return an error”)
+                It(“should not return a valid value or year”)
+* Context(“given an input field”)
+            When(“providing a date, month and year not in the format of dd/mm/yyyy”)
+                It(“should return an error of blank date”)
+                It(“should not return correct date format”)
+* Context(“given a input field”)
+            When(“providing an unfield input”)
+                It(“should error with incomplete field”)
+                It(“should return invalid date or blank date”)
+
+---
+
 ## Contribution
-* <font color="blue">Contributions ,issues and feature requests are welcomed !
-* Feel free to fork and check issues page</font>
+* Contributions ,issues and feature requests are welcomed !
+* Feel free to fork, clone  in the project and check issues page<
 
 ---
 
@@ -46,12 +71,7 @@
 ***
 
 ## Contact details
-Feel free to contact me 
-* <font color="blue">Phone Number +254796768937
-* Email : **akumucollins001@gmail.com**
-* Facebook : **Akumu Collins**
-* Instagram : **Akumu Collins**
-* Github : **Akumucollins**</font>
+Feel free to contact me **akumucollins001@gmail.com**  it there are bugs. 
 
 ---
 
