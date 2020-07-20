@@ -38,7 +38,7 @@
     </div>
 
     <div class="container" id="container">
-        <p> Finding your <strong>Akan Name</strong> with the correct day, month anandd year of your birthday. Enter your information in the form below and your Akan Name will be display below the submit button.</p>
+        <p class="guide"> Finding your <strong>Akan Name</strong> with the correct day, month anandd year of your birthday. Enter your information in the form below and your Akan Name will be display below the submit button.</p>
         <form>
             <div class="form-group">
                 <label for="birthday" class="text-uppercase">Please enter your birthday here:</label>
@@ -51,7 +51,12 @@
                     <option value="female" class="form-control" id="female">Female</option>
                 </select>
             </div>
-            <button type="submit" id="btn btn-default" onclick="additionSubmit()">Submit</button>
+            <div class="input-wrapper">
+                <input class="submit" id="btn btn-default" onclick="additionSubmit()" value="Get Akan Name">
+            </div>
+            <button onclick="document.getElementById('myInput').value = 'cancel'">Cancel</button> b
+            <br>
+            <br>
             <div class="text-center text-danger" id="result"></div>
         </form>
     </div>
