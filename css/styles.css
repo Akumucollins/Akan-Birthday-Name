@@ -84,26 +84,24 @@
         margin-top: 3%;
         font-size: 2.5vw;
         font-family: Audrey;
-        margin-left: 5%;
     }
     
     #row2 {
         padding: 20px;
         display: inline-flex;
         width: 100%;
-        margin-left: 3.5%;
+        margin-left: 4.5%;
     }
     
     .card-heading {
         font-weight: bold;
-        font-size: 5vw;
-        padding: 36px;
+        font-size: 2vw;
         text-align: center;
         background-color: rgb(72, 137, 221);
     }
     
     .card-body {
-        font-size: 2.5vw;
+        font-size: 1.5vw;
         font-weight: bold;
         font-family: Audrey;
     }
@@ -113,7 +111,7 @@
     }
     
     .card-footer {
-        font-size: 2vw;
+        font-size: 1vw;
     }
     
     .dayweek {
