@@ -18,49 +18,54 @@
 <body>
     <div class="container">
         <nav class="avbar navbar-expand-sm">
-            <div class="container-fluid">
+            <div class="container-fluid ">
                 <a class="navbar-brand navbar-responsive" href="#">
                     <img src="/images/akanlogo.png" alt="Logo" style="width:50px;">
                 </a>
                 <div class="websitename">
-                    <h1 class="navbar-header">AKAN<small class="header text-info">NAMES</small></h1>
+                    <h1 class="navbar-header text-danger">AKAN<small class="header text-info">NAMES</small></h1>
                 </div>
             </div>
         </nav>
     </div>
-
-    <div class="container">
-        <div class="intoduction">
-            <h2>A web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. Akan names are derived from Ghanian culture. Frequently in Ghana, children are given
-                their first name as a 'day name' which corresponds to the day in the week they were born.</h2>
-        </div>
-    </div>
-    </div>
-
-    <div class="container" id="container">
-        <p class="guide"> Finding your <strong>Akan Name</strong> with the correct day, month anandd year of your birthday. Enter your information in the form below and your Akan Name will be display below the submit button.</p>
-        <form>
-            <div class="form-group">
-                <label for="birthday" class="text-uppercase">Please enter your birthday here:</label>
-                <input type="date" name="date" class="form-control" placeholder="Enter Your BirthYear" id="date">
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-md-6 ">
+                <h2>Ghanaian Name</h2>
+                <div class="introduction">
+                    <i class="fa fa-male"> In Ghana , the days of the week are very impotant aspects of the naming culture</i> <br>
+                    <i class="fa fa-female"></i>
+                </div>
+                <p>A web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. Akan names are derived from Ghanian culture. Frequently in Ghana, children are
+                    given their first name as a 'day name' which corresponds to the day in the week they were born.
+                </p>
             </div>
-            <div class="form-group">
-                <label for="birthday" class="text-uppercase">Please select your gender here:</label>
-                <select class="form-control mb-2" id="gender">
+        </div>
+        <div class="col-md-6 " id="column2">
+            <p class="guide">Enter your information and get <strong>Akan Name</strong>.</p>
+            <form>
+                <div class="form-group">
+                    <label for="birthday">Please enter your birthday here:</label>
+                    <input type="date" name="date" class="form-control" placeholder="Enter Your BirthYear" id="date">
+                </div>
+                <div class="form-group">
+                    <label for="birthday">Please select your gender here:</label>
+                    <select class="form-control mb-2" id="gender">
                     <option value="male" class="form-control" id="male">Male</option>
                     <option value="female" class="form-control" id="female">Female</option>
                 </select>
-            </div>
-            <div class="input-wrapper">
-                <input class="submit text-center bg-info" id="btn btn-default" onclick="additionSubmit()" value="Get Akan Name">
-            </div>
-            <button onclick="document.getElementById('date').value= ''">Cancel</button>
-            <br>
-            <br>
-            <div class="text-center bg-info" id="result"></div>
-        </form>
+                </div>
+                <div class="input-wrapper">
+                    <input class="submit text-center bg-info" id="btn btn-default" onclick="additionSubmit()" value="Get Akan Name">
+                </div>
+                <button onclick="document.getElementById('date').value= ''">Cancel</button>
+                <br>
+                <br>
+                <div class="text-center bg-info" id="result"></div>
+            </form>
+        </div>
     </div>
-
+    </div>
 
     <script src="js/styles.js"></script>
     <script src="js/bootstrap.min.js"></script>
