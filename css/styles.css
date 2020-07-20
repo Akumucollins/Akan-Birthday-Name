@@ -1,66 +1,68 @@
-body {
-    background-color: white;
-    background-image: url("/images/ghana.webp");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.container-fluid {
-    display: inline-flex;
-    margin-left: auto;
-}
-
-.navbar-header {
-    font-size: 4vw;
-    margin-left: -8%;
-    font-family: 'Archivo Black', sans-serif;
-}
-
-.intoduction {
-    font-size: 2vw;
-    color: yellow;
-    width: 100%;
-    position: relative;
-    padding-right: 15px;
-    padding-left: 15px;
-}
-
-label {
-    color: blue;
-    font-size: 1.4vw;
-}
-
-.container {
-    display: inline-flex;
-}
-
-#column2 {
-    top: 0;
-    background-color: yellow;
-    padding: 50px;
-    font-size: 20px;
-    margin-right: -10%;
-}
-
-.guide {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.6vw;
-}
-
-button {
-    background: #1c00b5;
-    width: 100px;
-    border: none;
-    outline: none;
-    color: #ffffff;
-    height: 35px;
-    border-radius: 30px;
-    margin-top: 20px;
-    box-shadow: 0px 5px 15px 8px rgba(28, 0, 181, 0.3);
-}
-
-.input-wrapper {
-    color: #ffffff;
-    border: none;
-    outline: none;
-}
+    body {
+        background-color: white;
+        background-image: url("/images/akanghana.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .container-fluid {
+        display: inline-flex;
+        margin-left: auto;
+    }
+    
+    .navbar-header {
+        font-size: 4vw;
+        margin-left: -8%;
+        font-family: 'Archivo Black', sans-serif;
+    }
+    
+    h2 {
+        color: yellow;
+        font-size: 3vw;
+    }
+    
+    #introduction {
+        font-size: 2vw;
+        width: 100%;
+        position: relative;
+    }
+    
+    label {
+        color: blue;
+        font-size: 1.4vw;
+    }
+    
+    .container {
+        display: inline-flex;
+    }
+    
+    #column2 {
+        top: 0;
+        background-color: yellow;
+        padding: 50px;
+        font-size: 20px;
+        margin-right: -10%;
+    }
+    
+    .guide {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.6vw;
+    }
+    
+    button {
+        background: #1c00b5;
+        width: 100px;
+        border: none;
+        outline: none;
+        color: #ffffff;
+        height: 35px;
+        border-radius: 30px;
+        margin-top: 20px;
+        box-shadow: 0px 5px 15px 8px rgba(28, 0, 181, 0.3);
+    }
+    
+    .input-wrapper {
+        color: #ffffff;
+        border: none;
+        outline: none;
+    }
