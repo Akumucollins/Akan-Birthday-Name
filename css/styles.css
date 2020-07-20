@@ -36,12 +36,15 @@
         display: inline-flex;
     }
     
+    .about {
+        display: flex;
+    }
+    
     #column2 {
         top: 0;
         background-color: yellow;
         padding: 50px;
         font-size: 20px;
-        margin-right: -10%;
     }
     
     .guide {
