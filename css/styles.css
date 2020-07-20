@@ -1,8 +1,5 @@
     body {
         background-color: white;
-        background-image: url("/images/akanghana.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
     }
     
     .container-fluid {
@@ -21,12 +18,6 @@
         font-size: 3vw;
     }
     
-    #introduction {
-        font-size: 2vw;
-        width: 100%;
-        position: relative;
-    }
-    
     label {
         color: blue;
         font-size: 1.4vw;
@@ -38,6 +29,11 @@
     
     .about {
         display: flex;
+        font-size: 2vw;
+    }
+    
+    #column {
+        margin-left: 5;
     }
     
     #column2 {
@@ -53,7 +49,6 @@
     }
     
     button {
-        background: #1c00b5;
         width: 100px;
         border: none;
         outline: none;
@@ -64,8 +59,10 @@
         box-shadow: 0px 5px 15px 8px rgba(28, 0, 181, 0.3);
     }
     
-    .input-wrapper {
-        color: #ffffff;
-        border: none;
+    .form-control3 {
+        color: white;
+        border: auto;
         outline: none;
+        box-shadow: 0px 5px 15px 8px rgba(28, 0, 181, 0.3);
+        font-size: 1.4vw;
     }
