@@ -28,28 +28,28 @@
             </div>
         </nav>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 bg-info">
+    <div class="container" id="cntainer">
+        <div class="row ">
+            <div class="col-md-6 bg-info" id="column">
                 <h2 class="text-center">Ghanaian Name</h2>
                 <div class="about">
-                    <i class="fa fa-male text-white"></i> <br><br>
+                    <i class="fa fa-male text-warning"></i> <br><br>
                     <p>Akan names are derived from Ghanian culture</p>
                 </div>
                 <div class="about">
-                    <i class="fa fa-female text-white"></i>
+                    <i class="fa fa-female text-danger"></i>
                     <p>In Ghana , the days of the week are very impotant aspects of the naming culture.</p>
                 </div>
                 <div class="about">
-                    <i class="fa fa-male text-white"> </i> <br><br>
+                    <i class="fa fa-male text-secondary"> </i> <br><br>
                     <p>Babies are give a <em> day name</em> according to the day of the week they were born.</p>
                 </div>
                 <div class="about">
-                    <i class="fa fa-female text-white"></i>
+                    <i class="fa fa-female text-body"></i>
                     <p> These <em>day names</em> come in pairs for each specific day; one for males and the other for females.</p>
                 </div>
             </div>
-            <div class="col-md-6 " id="column2">
+            <div class="col-md-6 text-center" id="column2">
                 <p class="guide">Enter your information and get <strong>Akan Name</strong>:</p>
                 <form>
                     <div class="form-group">
@@ -64,9 +64,9 @@
                         </select>
                     </div>
                     <div class="input-wrapper">
-                        <input class="submit text-center bg-info" id="btn btn-default" onclick="additionSubmit()" value="Get Akan Name">
+                        <input type="submit" class="form-control3 text-center bg-info" id="btn btn-default" onclick="additionSubmit()" value=" Get Akan Name " />
                     </div>
-                    <button onclick="document.getElementById('date').value= ''">Cancel</button>
+                    <button onclick="document.getElementById('date').value= ''" class="bg-info">Cancel</button>
                     <br>
                     <br>
                     <div class="text-center bg-info" id="result"></div>
