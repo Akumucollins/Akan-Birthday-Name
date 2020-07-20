@@ -1,6 +1,5 @@
 body {
     background-color: white;
-    /* font-family: Audrey; */
 }
 
 .container-fluid {
@@ -21,19 +20,24 @@ h2 {
     font-family: Audrey;
 }
 
+p {
+    margin-top: -1%;
+    margin-left: 2%;
+}
+
 label {
     color: blue;
     font-size: 1.4vw;
 }
 
-.container {
+#container-fluid {
     display: inline-flex;
+    margin-left: 5%;
 }
 
 .about {
     display: inline-flex;
     font-size: 2vw;
-    /* font-family: Audrey; */
 }
 
 #column2 {
