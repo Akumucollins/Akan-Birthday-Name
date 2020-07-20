@@ -41,6 +41,12 @@
             box-shadow: 0px 5px 15px 8px rgba(28, 0, 181, 0.3);
         }
         
+        .input-wrapper {
+            background: #1c00b5;
+            color: #ffffff;
+            box-shadow: 0px 5px 15px 8px rgba(28, 0, 181, 0.3);
+        }
+        
         .intoduction {
             font-size: 2vw;
         }
