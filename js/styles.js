@@ -16,6 +16,6 @@ function additionSubmit() {
     } else if (gender === 'female') {
         document.getElementById('result').innerHTML = "For Her Born On " + weekDays[date.getDay()] + ',' + " Your Akan Name Is " + femaleNames[date.getDay()]
     } else {
-        alert(" For Him or Her Born On " + " Undefined Date " + ',' + " Your Akan Name Is " + " Undefined ");
+        alert("The date is either blank or invalid");
     }
 }
