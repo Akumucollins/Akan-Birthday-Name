@@ -38,7 +38,7 @@ label {
 
 #container-fluid {
     display: inline-flex;
-    margin-left: 5%;
+    margin-left: 4%;
 }
 
 .about {
@@ -99,7 +99,7 @@ button {
     padding: 20px;
     display: inline-flex;
     width: 100%;
-    margin-left: 4.5%;
+    margin-left: 10%;
 }
 
 .card-heading {
