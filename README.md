@@ -21,7 +21,7 @@ This project takes the user's <strong>birthday</strong> and calculates the day o
 * cd to the directory of your choice
 * git clone https://akumucollins.github.io/Akan-Birthday-Name/ to your local terminal
 *  cd to the project directory
-*  code .  command  to open the text editor
+*  code . /atom . command  to open the text editor
 
 ---
 
@@ -36,32 +36,32 @@ This project takes the user's <strong>birthday</strong> and calculates the day o
 
 ### Behaviour Driven Development
 
-* Context(“given an input field”)
-            When(“providing a date that is less than 1 and greater than 31”)
-                It(“should return an invalid date or invalid value”)
-                It(“should not validate the value or date as true”)
-* Context(“given an input field”)
-        When(“providing a year that has 4 digit figures”)
-                It(“should return entered a valid value”)
+* Context(“given an input field”)<br>
+            When(“providing a date that is less than 1 and greater than 31”)<br>
+                It(“should return an invalid date or invalid value”)<br>
+                It(“should not validate the value or date as true”)<br>
+* Context(“given an input field”)<br>
+        When(“providing a year that has 4 digit figures”)<br>
+                It(“should return entered a valid value”)<br>
                 It(“should not error”)
-* Context(“given an input field”)
-            When(“providing a year with more than 4 digit figure”)
-                It(“should return an error”)
+* Context(“given an input field”)<br>
+            When(“providing a year with more than 4 digit figure”)<br>
+                It(“should return an error”)<br>
                 It(“should not return a valid value or year”)
-* Context(“given an input field”)
-            When(“providing a date, month and year not in the format of dd/mm/yyyy”)
-                It(“should return an error of blank date”)
+* Context(“given an input field”)<br>
+            When(“providing a date, month and year not in the format of dd/mm/yyyy”)<br>
+                It(“should return an error of blank date”)<br>
                 It(“should not return correct date format”)
-* Context(“given a input field”)
-            When(“providing an unfield input”)
-                It(“should error with incomplete field”)
+* Context(“given a input field”)<br>
+            When(“providing an unfield input”)<br>
+                It(“should error with incomplete field”)<br>
                 It(“should return invalid date or blank date”)
 
 ---
 
 ## Contribution
 * Contributions ,issues and feature requests are welcomed !
-* Feel free to fork, clone  in the project and check issues page<
+* Feel free to fork, clone  in the project and check issues page
 
 ---
 
@@ -71,7 +71,7 @@ This project takes the user's <strong>birthday</strong> and calculates the day o
 ***
 
 ## Contact details
-Feel free to contact me **akumucollins001@gmail.com**  if there are bugs. 
+Feel free to contact me @ akumucollins001@gmail.com  if there are bugs. 
 
 ---
 
