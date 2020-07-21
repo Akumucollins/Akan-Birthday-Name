@@ -71,7 +71,7 @@ This project takes the user's <strong>birthday</strong> and calculates the day o
 ***
 
 ## Contact details
-Feel free to contact me @ akumucollins001@gmail.com  if there are bugs. 
+Feel free to contact me @ akumucollins001@gmail.com  if there are any bugs. 
 
 ---
 
